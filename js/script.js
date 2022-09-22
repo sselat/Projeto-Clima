@@ -36,6 +36,7 @@ const showWeatherData = async (city) =>{
     windElement.innerText = `${data.wind.speed}km/h`
 
     weatherContainer.classList.remove('hide');
+
 }
 
 searchBtn.addEventListener("click", (e) =>{
